@@ -13,7 +13,7 @@
       background-size: cover;
     }
 
-    h1, h3 {
+    h1, h3, h4 {
      text-align: center;     
      color: brown;
     }
@@ -28,14 +28,19 @@
       margin-bottom: 40px;
       margin: 50px 50px;
     }
+
     h4 {
-      color: brown;
       margin-top: 30px;
       padding-top: 20px;
       margin-bottom: 20px;
       text-decoration: underline;     
     }
     
+    h4:hover {
+      color: aliceblue;
+      cursor: pointer;      
+    }
+
     .content {
       background-color: aliceblue;
       margin-left: 400px;
@@ -54,7 +59,16 @@
       margin-bottom: 20px;
     }
 
-    footer {
+    a {
+      color: aliceblue;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: brown;
+    }
+    
+    .footer {
       text-align: center;
       font-size: larger;
       color: aliceblue;
@@ -68,51 +82,63 @@
 <body>
   <h1>Barbecue</h1>
   <h3>The reason that BBQ is my favorite food is that there is so many different styles, you can find barbecue all around the world.</h3>
+
+    <div>
+      <h4 title="Barbeque is a style of indirect cooking that uses live fire and smoke to heat food. Most countries and regions have a distinct barbecue tradition. In North America, pitmasters BBQ foods by roasting or smoking them over wood or charcoal at low temperatures for several hours, transforming whole roasts and tough cuts into tender, succulent pieces of meat.
+                 Because the cooking process, equipment, and meals are so entwined, they are all referred to as BBQ. You can accurately barbeque ribs, get the heat going on the barbeque, and enjoy a plate of barbequed chicken. Grammarians would tell you barbeque is a verb, noun, and adjective. American pitmasters know it’s a way of life."
+          >What Is Barbeque?</h4>
+    </div>
+
+      <div class="content">
+        <div class="text-center">
+          <h4>American BBQ</h4>
+            <img src="https://st4.depositphotos.com/1008041/26378/i/450/depositphotos_263787664-stock-photo-boneless-beef-ribs-grilling-over.jpg" 
+                 alt="American BBQ">
+        </div>
+
+        <div class="text-center">
+          <h4>Mexican Barbacoa</h4>
+          <img src="https://www.rickbayless.com/wp-content/uploads/2020/12/IMG_5602-2-1-scaled.jpg" 
+               alt="Mexican Barbacoa">
+        </div>
+
+        <div class="text-center">
+          <h4>Indian Tandoori</h4>
+          <img src="https://ihmnotessite.com/wp-content/uploads/2020/03/TANDOOR.jpg" 
+               alt="Indian Tandoori">
+        </div>
+
+        <div class="text-center">
+          <h4>Jamaican Jerk</h4>
+          <img src="https://rootedspices.com/wp-content/uploads/2021/07/History-Jamican-Jerk-Chicken.jpg" 
+               alt="Jamaican Jerk">
+        </div>
   
-  <div class="content">
-    <div class="text-center">
-      <h4>American BBQ</h4>
-      <img src="https://st4.depositphotos.com/1008041/26378/i/450/depositphotos_263787664-stock-photo-boneless-beef-ribs-grilling-over.jpg" 
-           alt="American BBQ">
-    </div>
+        <div class="text-center">
+          <h4>Mongolian Khorkhog</h4>
+            <img src="https://www.willflyforfood.net/wp-content/uploads/2021/08/mongolian-food-khorkhog.jpg.webp" 
+                 alt="Mongolian Khorkhog">
+        </div>
 
-    <div class="text-center">
-      <h4>Mexican Barbacoa</h4>
-      <img src="https://www.rickbayless.com/wp-content/uploads/2020/12/IMG_5602-2-1-scaled.jpg" 
-           alt="Mexican Barbacoa">
-    </div>
+        <div class="text-center">
+          <h4>Chinese Chuan'r</h4>
+            <img src="https://www.ltl-shanghai.com/wp-content/sites/3/chuar-in-shanghai_1-480x321.jpg" 
+                 alt="Chinese Chuan'r">
+        </div>
 
-    <div class="text-center">
-      <h4>Indian Tandoori</h4>
-      <img src="https://ihmnotessite.com/wp-content/uploads/2020/03/TANDOOR.jpg" 
-           alt="Indian Tandoori">
-    </div>
+          <div class="text-center">
+            <button type="button" 
+                    class="btn btn-outline-danger"
+                    > Visit </button>
+          </div>
 
-    <div class="text-center">
-      <h4>Jamaican Jerk</h4>
-      <img src="https://rootedspices.com/wp-content/uploads/2021/07/History-Jamican-Jerk-Chicken.jpg" 
-           alt="Jamaican Jerk">
-    </div>
+      </div>
+
   
-    <div class="text-center">
-      <h4>Mongolian Khorkhog</h4>
-      <img src="https://www.willflyforfood.net/wp-content/uploads/2021/08/mongolian-food-khorkhog.jpg.webp" 
-           alt="Mongolian Khorkhog">
-    </div>
+  <div class="footer">
+    <a href="https://github.com/eFranchesca/favoriteFood" target="_blank">Open source coded</a> with ❤️ by Eva Godfrey</div>
+  </div>    
 
-    <div class="text-center">
-      <h4>Chinese Chuan'r</h4>
-      <img src="https://www.ltl-shanghai.com/wp-content/sites/3/chuar-in-shanghai_1-480x321.jpg" 
-           alt="Chinese Chuan'r">
-    </div>
-
-    <div class="text-center">
-      <button type="button" class="btn btn-outline-danger"> Visit </button>
-    </div>
-
-  </div>
-
-  <footer>This page is open-source coded with ❤️ by Eva Godfrey</footer>
 
 </body>
 </html>
